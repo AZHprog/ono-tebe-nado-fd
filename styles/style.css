@@ -8,9 +8,9 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 36px;
   padding: 50px 50px;
   background-color: white;
-  margin-bottom: 36px;
 }
 
 .nav-menu-list {
@@ -87,15 +87,15 @@
 
 .cover-text-center {
   align-self: center;
-  text-align: center;
   width: 339px;
+  text-align: center;
 }
 
 .cover-text-right {
   align-self: flex-end;
-  text-align: end;
   width: 339px;
   margin-right: 47px;
+  text-align: end;
 }
 
 .description {
@@ -156,7 +156,7 @@
    background: url(../images/card-lot-02.jpg);
 }
 
-.lot-artist{
+.lot-artist {
   background: url(../images/card-lot-03.jpg);
 }
 
@@ -265,7 +265,7 @@
 
 .nav-media-logo {
   min-width: 48px;
-  min-height: 48px;
   max-width: 48px;
+  min-height: 48px;
   max-height: 48px;
 }
