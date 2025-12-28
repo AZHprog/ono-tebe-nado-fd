@@ -10,6 +10,7 @@
   align-items: center;
   padding: 50px 50px;
   background-color: white;
+  margin-bottom: 36px;
 }
 
 .nav-menu-list {
@@ -76,7 +77,7 @@
   color: white;
   font-weight: bold;
   font-size: 100px;
-  letter-spacing: 30%;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
@@ -86,11 +87,13 @@
 
 .cover-text-center {
   align-self: center;
+  text-align: center;
   width: 339px;
 }
 
 .cover-text-right {
   align-self: flex-end;
+  text-align: end;
   width: 339px;
   margin-right: 47px;
 }
@@ -248,12 +251,13 @@
 .footer-contacts {
   justify-self: center;
   width: 264px;
+  margin-bottom: 84px;
 }
 
 .nav-menu-media {
   justify-content: center;
   gap: 48px;
-  width: 100%;
+  width: 340px;
   padding-left: 25px;
   color: black;
   list-style: none;
@@ -262,4 +266,6 @@
 .nav-media-logo {
   min-width: 48px;
   min-height: 48px;
+  max-width: 48px;
+  max-height: 48px;
 }
