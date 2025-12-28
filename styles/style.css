@@ -1,1 +1,272 @@
-/* место для вашего кода */
+.logo-image-white {
+  width: 134px;
+  height: 107px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  justify-content: space-between;
+  align-items: center;
+  height: 293px;
+  padding: 50px 50px;
+  background-color: white;
+}
+
+.nav-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 13px;
+  width: 390px;
+  font-size: 18px;
+  text-transform: lowercase;
+  list-style: circle;
+}
+
+.no-bullit-nav-menu-item {
+  list-style: none;
+}
+
+.link-no-underscore {
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  width: 240px;
+  height: 100px;
+  font-size: 18px;
+  
+  font-style: normal;
+  line-height: 24.3px;
+  word-wrap: normal;
+}
+
+.cover {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 50px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+  height: 385;
+  margin-top: 115px;
+}
+
+.cover-text {
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+}
+
+.cover-text-left {
+  align-self: start;
+}
+
+.cover-text-center {
+  align-self: center;
+  width: 339px;
+}
+
+.cover-text-right {
+  align-self: flex-end;
+  width: 339px;
+  margin-right: 47px;
+  
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.description-button {
+  justify-self: flex-end;
+  width: 256px;
+  height: 51px;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.lots {
+  height: 723px;
+  margin: 180px 24px 0 24px;
+}
+
+.lots-header {
+  margin: 0 0 27px 40px;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.lots-list-item {
+  position: relative;
+  z-index: 0;
+  width: 334px;
+  min-height: 596px;
+  background-color: aqua;
+}
+
+
+.card-lot-01 {
+   background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-lot-02 {
+   background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-lot-03{
+   background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.lots-card-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100%;
+  padding: 48px 40px;
+  color: white;
+}
+
+.lots-card-headline {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.lots-card-paragraph {
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.lots-see-more {
+  display: block;
+  margin: 30px 0 0 38px;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px auto;
+  gap: 25px;
+  height: 595px;
+  margin: 155px 24px 145px 24px;
+}
+
+.about-logo-image {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border: 2px inset  ;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.about-describing-text {
+  width: 690px;
+}
+
+.about-headline {
+  margin: 100px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about-paragraph {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.logo-image-black {
+  width: 150px;
+  height: 150px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 180px;
+  padding: 0 15px;
+}
+
+.nav-menu-footer {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+}
+
+.footer-contacts {
+  justify-self: center;
+  width: 264px;
+}
+
+.nav-menu-media {
+  justify-content: center;
+  gap: 48px;
+  width: 100%;
+  height: 48px;
+  padding-left: 25px;
+  color: black;
+  list-style: none;
+}
+
+.nav-media-logo {
+  min-width: 48px;
+  min-height: 48px;
+}
