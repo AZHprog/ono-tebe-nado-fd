@@ -141,6 +141,9 @@
   min-height: 596px;
 }
 
+.lots-item-link {
+  text-decoration: none;
+}
 
 .lot-director {
   background: url(../images/card-lot-01.jpg);
