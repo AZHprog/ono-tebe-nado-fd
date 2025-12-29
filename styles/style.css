@@ -200,8 +200,7 @@
   display: grid;
   grid-template-columns: 334px auto;
   gap: 25px;
-  height: 595px;
-  margin: 155px 24px 145px 24px;
+  margin: 155px 24px 155px 24px;
 }
 
 .about-logo-image {
